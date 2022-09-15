@@ -16,3 +16,5 @@ def firstlast(sequence):
     return sequence[:1] + sequence[-1:]
 print(firstlast('abcd'))
 
+# iterate over just the final n elements of a list.
+# mylist[-3:]

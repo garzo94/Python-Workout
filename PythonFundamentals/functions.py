@@ -1,18 +1,18 @@
-# returning multiples values
-def ooperation():
-    return False, -1
-
-
-b, n = ooperation()
-
-
-# arguments##########################
-def show_names(*names, **params):  # *name is a tuple
-    print(names[0])
-    print(params)
-
-
-show_names('alex', 'jorge', minombre='alex')
+# # returning multiples values
+# def ooperation():
+#     return False, -1
+#
+#
+# b, n = ooperation()
+#
+#
+# # arguments##########################
+# def show_names(*names, **params):  # *name is a tuple
+#     print(names[0])
+#     print(params)
+#
+#
+# show_names('alex', 'jorge', minombre='alex')
 # alex
 # {'minombre': 'alex'}
 
@@ -26,5 +26,6 @@ def test():
     c = 15
     return c +20
 
+test()
 
 

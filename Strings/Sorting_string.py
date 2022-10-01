@@ -1,6 +1,7 @@
 # mysoluiton
 def strsort(str):
     sort_list = sorted(str)
+    print(sort_list)
     return ''.join(sort_list)
 
 print(strsort('bca'))

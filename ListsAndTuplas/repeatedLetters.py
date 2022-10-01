@@ -5,6 +5,7 @@ def most_repeating_word(words):
     for word in words:
 
         counter = Counter(word).most_common(1)[0][1]
+        print(counter)
         if counter > repeated_times:
 
             repeated_times = counter
@@ -23,7 +24,7 @@ def most_repeating_word(words):
 
 
 words = ['this', 'is', 'an', 'elementary', 'test', 'example']
-print(most_repeating_word(words))
+most_repeating_word(words)
 
 
 

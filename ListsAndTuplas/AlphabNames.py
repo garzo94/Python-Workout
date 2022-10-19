@@ -1,8 +1,9 @@
 import operator
 
-PEOPLE = [{'first':'Reuven', 'last':'Lerner', 'email':'reuven@lerner.co.il'},
-{'first':'Donald', 'last':'Trump', 'email':'president@whitehouse.gov'},
-{'first':'Vladimir', 'last':'Putin', 'email':'president@kremvax.ru'}
+PEOPLE = [
+    {'first':'Jorge', 'last':'Lerner'},
+    {'first':'Maria', 'last':'Gonzalez' },
+    {'first':'Peter', 'last':'Smith' }
 ]
 
 def alphabetize_names(list_of_dicts):
@@ -13,7 +14,7 @@ def alphabetize_names(list_of_dicts):
     return sorted(list_of_dicts, key=operator.itemgetter('last', 'first')) #key is afunction que recive como parametro list_of_dicts
 
 print(alphabetize_names(PEOPLE))
-print(operator.itemgetter('last', 'first'))
+# print(operator.itemgetter('last', 'first'))
 
 
 
